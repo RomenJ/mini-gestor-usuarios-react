@@ -11,8 +11,6 @@ const useFormulario=(inicial)=>{
 
     const reset=()=>{
       setFormulario(inicial)
-
-
     }
     return [formulario, handleChange, reset]
 }
