@@ -1,0 +1,18 @@
+.PhotoHeader{
+    width: 100%;
+    height: 500px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+  }
+  h1{
+    position: absolute; /* Posiciona el encabezado encima de la foto */
+    top: 30%; /* Lo coloca en la mitad superior del contenedor */
+    left: 50%; /* Lo coloca en el centro horizontal del contenedor */
+    transform: translate(-50%, -50%); /* Lo centra tanto horizontal como verticalmente */
+    background-color: rgba(0, 0, 0, 0.7); /* Fondo semitransparente para hacer que el texto sea legible */
+    color: #fff; /* Color del texto */
+    padding: 10px; /* Espaciado interior del encabezado */
+    font-size: 24px; /* Tamaño de fuente del encabezado */
+    font-weight: bold; /* Fuente en negrita */
+  }
+  
